@@ -65,6 +65,7 @@ public class ProductController {
 
     }
 
+    //GETs the existing product and produces the data in relevant form fields
     @GetMapping("/product/edit/{id}")
     public String editProductForm(@PathVariable Long id, Model model) {
         model.addAttribute("product", productService.getProductById(id));
@@ -133,6 +134,8 @@ public class ProductController {
         }
     }
 
+    //Param - takes image name
+    //Deletes image if it exists
     private void deleteImage(String filename) {
         File image = new File("./bambi-photos/" + filename);
 

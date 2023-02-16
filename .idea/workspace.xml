@@ -7,7 +7,6 @@
     <list default="true" id="b193c41b-1370-4dc8-932e-ba0fb505c2c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <updated>1676496486341</updated>
       <workItem from="1676496487473" duration="9703000" />
       <workItem from="1676513938145" duration="527000" />
-      <workItem from="1676546913992" duration="15016000" />
+      <workItem from="1676546913992" duration="15839000" />
     </task>
     <servers />
   </component>
