@@ -43,13 +43,15 @@ public class ProductController {
 
     //POST request to create a New Product entry
     @PostMapping("/products/new")
-    public String addProductForm(@RequestParam("product_name") String name,
+    public String addProductForm(@RequestParam("product_brand") String brand,
+                                 @RequestParam("product_name") String name,
                                  @RequestParam("product_price") int price,
                                  @RequestParam("product_gender") String gender,
                                  @RequestParam("product_category") String category,
                                  @RequestParam("product_description") String description,
                                  @RequestParam("product_image")MultipartFile image) throws IOException {
         Product product = new Product();
+        product.setProductBrand(brand);
         product.setProductName(name);
         product.setProductPrice(price);
         product.setProductGender(gender);
@@ -74,6 +76,7 @@ public class ProductController {
 
     @PostMapping("/product/{id}")
     public String updateProduct(@PathVariable Long id,
+                                @RequestParam String productBrand,
                                 @RequestParam String productName,
                                 @RequestParam int productPrice,
                                 @RequestParam String productGender,
@@ -84,6 +87,7 @@ public class ProductController {
         //Get existing product record
         Product product = productService.getProductById(id);
         product.setId(id);
+        product.setProductBrand(productBrand);
         product.setProductName(productName);
         product.setProductPrice(productPrice);
         product.setProductGender(productGender);

@@ -23,6 +23,7 @@
     <table class="table table-striped table-bordered">
       <thead class="table-dark">
         <tr>
+          <th>Product Brand</th>
           <th>Product Name</th>
           <th>Product Price</th>
           <th>Product Gender</th>
@@ -35,6 +36,7 @@
 
       <tbody>
       <tr th:each="product: ${products}">
+        <td th:text="${product.productBrand}"></td>
         <td th:text="${product.productName}"></td>
         <td th:text="${product.productPrice}"></td>
         <td th:text="${product.productGender}"></td>

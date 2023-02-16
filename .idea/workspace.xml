@@ -7,6 +7,10 @@
     <list default="true" id="b193c41b-1370-4dc8-932e-ba0fb505c2c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/add_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/edit_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sulim/IdeaProjects/student-management-system",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "12f85fdf12a50de1f8f209c9080ea937",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sulim/IdeaProjects/student-management-system&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;12f85fdf12a50de1f8f209c9080ea937&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BambiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="bambi" />
@@ -83,7 +87,8 @@
       <updated>1676496486341</updated>
       <workItem from="1676496487473" duration="9703000" />
       <workItem from="1676513938145" duration="527000" />
-      <workItem from="1676546913992" duration="15839000" />
+      <workItem from="1676546913992" duration="15884000" />
+      <workItem from="1676571091738" duration="2307000" />
     </task>
     <servers />
   </component>

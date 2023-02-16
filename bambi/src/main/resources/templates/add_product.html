@@ -17,6 +17,11 @@
           <form th:action="@{/products/new}" enctype="multipart/form-data" method="POST">
 
             <div class="form-group">
+              <label>Product Brand:</label>
+              <input type="text" name="product_brand" placeholder="Enter Brand Name">
+            </div>
+
+            <div class="form-group">
               <label>Product Name:</label>
               <input type="text" name="product_name" placeholder="Enter Product Name">
             </div>
@@ -28,12 +33,10 @@
 
             <div class="form-group">
               <label>Product Gender:</label>
-
-              <label for="Men">Men</label>
-              <input type="radio" name="product_gender" value="Men" id="Men">
-
-              <label for="Women">Women</label>
-              <input type="radio" name="product_gender" value="Women" id="Women">
+              <select name="product_gender" id="product_gender">
+                <option value="Women">Women</option>
+                <option value="Men">Men</option>
+              </select>
             </div>
 
             <div class="form-group">

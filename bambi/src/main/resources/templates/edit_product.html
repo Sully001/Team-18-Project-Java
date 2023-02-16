@@ -17,6 +17,15 @@
                 <div class="card-body">
                     <form th:action="@{/product/{id}(id=${product.id})}" enctype="multipart/form-data" method="POST">
                         <div class="form-group">
+                            <label>Product Brand:</label>
+                            <input
+                                    type="text"
+                                    name="productBrand"
+                                    th:field="${product.productBrand}"
+                                    placeholder="Enter Product Brand">
+                        </div>
+
+                        <div class="form-group">
                             <label>Product Name:</label>
                             <input
                                     type="text"

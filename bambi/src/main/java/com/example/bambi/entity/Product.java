@@ -11,6 +11,10 @@ public class Product {
     @Column(name = "product_id")
     public Long id;
 
+
+    @Column(name = "product_brand", nullable = false)
+    public String productBrand;
+
     @Column(name = "product_name", nullable = false)
     public String productName;
 
@@ -30,7 +34,7 @@ public class Product {
     public String productImage;
 
 
-    public Product(String productName, int productPrice,
+    public Product(String productBrand, String productName, int productPrice,
                    String productGender, String productCategory,
                    String productDescription, String productImage) {
         this.productName = productName;
@@ -53,6 +57,16 @@ public class Product {
     public void setId(Long id) {
         this.id = id;
     }
+
+
+    public String getProductBrand() {
+        return productBrand;
+    }
+
+    public void setProductBrand(String productBrand) {
+        this.productBrand = productBrand;
+    }
+
 
     public String getProductName() {
         return productName;
