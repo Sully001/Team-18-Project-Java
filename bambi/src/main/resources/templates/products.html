@@ -29,6 +29,7 @@
           <th>Product Category</th>
           <th>Product Description</th>
           <th>Product Image</th>
+          <th></th>
         </tr>
       </thead>
 
@@ -40,6 +41,14 @@
         <td th:text="${product.productCategory}"></td>
         <td th:text="${product.productDescription}"></td>
         <td th:text="${product.productImage}"></td>
+        <td>
+          <a th:href="@{/product/edit/{id}(id=${product.id})}" class="btn btn-primary">
+            Update
+          </a>
+        </td>
+<!--        <td th:href="@{/product/{id}(id=${product.id})}" class="btn btn-primary">-->
+<!--          Delete-->
+<!--        </td>-->
       </tr>
       </tbody>
     </table>

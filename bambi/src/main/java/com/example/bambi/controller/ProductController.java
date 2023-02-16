@@ -5,8 +5,17 @@ import com.example.bambi.service.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 @Controller
 public class ProductController {
@@ -34,21 +43,51 @@ public class ProductController {
     //POST request to create a New Product entry
     @PostMapping("/products/new")
     public String addProductForm(@RequestParam("product_name") String name,
-                               @RequestParam("product_price") int price,
-                               @RequestParam("product_gender") String gender,
-                               @RequestParam("product_category") String category,
-                               @RequestParam("product_description") String description,
-                               @RequestParam("product_image") String image) {
+                                 @RequestParam("product_price") int price,
+                                 @RequestParam("product_gender") String gender,
+                                 @RequestParam("product_category") String category,
+                                 @RequestParam("product_description") String description,
+                                 @RequestParam("product_image")MultipartFile image) throws IOException {
         Product product = new Product();
         product.setProductName(name);
         product.setProductPrice(price);
         product.setProductGender(gender);
         product.setProductCategory(category);
         product.setProductDescription(description);
-        product.setProductImage(image);
+
+        String filename = image.getOriginalFilename();
+        product.setProductImage(filename);
 
         productService.saveProduct(product);
+        saveImageToFolder(image);
         return "redirect:/products";
 
+    }
+
+    @GetMapping("/product/edit/{id}")
+    public String editProductForm(@PathVariable Long id, Model model) {
+        model.addAttribute("product", productService.getProductById(id));
+        return "edit_product";
+    }
+
+
+    //Saves Image To Folder "./bambi-photos/"
+    private void saveImageToFolder(MultipartFile image) throws IOException {
+        String filename = image.getOriginalFilename();
+
+        String uploadDir = "./bambi-photos/";
+        Path uploadPath = Paths.get(uploadDir);
+
+        if (!Files.exists(uploadPath)) {
+            Files.createDirectories(uploadPath);
+        }
+
+        try (InputStream inputStream = image.getInputStream()) {
+            Path filePath = uploadPath.resolve(filename);
+            System.out.println(filePath.toFile().getAbsolutePath());
+            Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            throw new IOException("Could not save uploaded file " + filename);
+        }
     }
 }

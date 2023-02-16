@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Product</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+</head>
+    <body>
+    <a th:href="@{/products}"><button class="btn btn-primary"> Go Back To All Products</button></a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+                <h1 class="text-center">Edit Product</h1>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Product Name:</label>
+                            <input th:field="${product.productName}" type="text" name="product_name" placeholder="Enter Product Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Product Price:</label>
+                            <input th:field="${product.productPrice}" type="number" name="product_price" placeholder="Enter Product Price">
+                        </div>
+
+
+                        <!--Here we retrieve the value for gender, if it's Men -> 2nd option must be women and vice versa-->
+                        <div class="form-group">
+                            <label>Product Gender:</label>
+                            <select name="product_gender" id="product_gender">
+                                <option selected th:value="${product.productGender}" th:text="${product.productGender}"></option>
+                                <option th:if="${product.productGender == 'Men'}" value="Women">Women</option>
+                                <option th:if="${product.productGender == 'Women'}" value="Men">Men</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product_category">Product Category:</label>
+                            <select name="product_category" id="product_category">
+                                <option disabled selected th:value="${product.productCategory}" th:text="${product.productCategory}"></option>
+                                <option value="Trainers">Trainers</option>
+                                <option value="Loafers">Loafers</option>
+                                <option value="Boots">Boots</option>
+                                <option value="Heels">Heels</option>
+                                <option value="Dress Shoes">Dress Shoes</option>
+                                <option value="Heeled Sandals">Heeled Sandals</option>
+                                <option value="Brogues">Brogues</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Product Description:</label>
+                            <textarea th:text="${product.productDescription}" id="product_description" name="product_description" rows="4" cols="50"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Product Image:</label>
+                            <input type="file" name="product_image" placeholder="Enter Product Image">
+                        </div>
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </body>
+</html>
