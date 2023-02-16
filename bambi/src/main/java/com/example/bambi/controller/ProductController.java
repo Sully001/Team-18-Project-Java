@@ -18,18 +18,20 @@ public class ProductController {
         this.productService = productService;
     }
 
-    //handler methods
+    //GET request to get a list of all the product currently in the database
     @GetMapping("/products")
     public String listAllProducts(Model model) {
         model.addAttribute("products", productService.getAllProducts());
         return "products";
     }
 
+    //GET request to retrieve the Add Product Form
     @GetMapping("/products/new")
     public String addProductForm() {
         return "add_product";
     }
 
+    //POST request to create a New Product entry
     @PostMapping("/products/new")
     public String addProductForm(@RequestParam("product_name") String name,
                                @RequestParam("product_price") int price,
