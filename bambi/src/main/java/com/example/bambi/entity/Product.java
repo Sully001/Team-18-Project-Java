@@ -103,5 +103,11 @@ public class Product {
     }
 
 
+    @Transient
+    public String getLogoImagePath() {
+        if (productImage == null || id == null) return null;
+
+        return "/bambi-photos/" +  productImage;
+    }
 
 }

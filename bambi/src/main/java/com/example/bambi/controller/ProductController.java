@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -70,6 +71,43 @@ public class ProductController {
         return "edit_product";
     }
 
+    @PostMapping("/product/{id}")
+    public String updateProduct(@PathVariable Long id,
+                                @RequestParam String productName,
+                                @RequestParam int productPrice,
+                                @RequestParam String productGender,
+                                @RequestParam String productCategory,
+                                @RequestParam String productDescription,
+                                @RequestParam MultipartFile productImage) throws IOException {
+
+        //Get existing product record
+        Product product = productService.getProductById(id);
+        product.setId(id);
+        product.setProductName(productName);
+        product.setProductPrice(productPrice);
+        product.setProductGender(productGender);
+        product.setProductCategory(productCategory);
+        product.setProductDescription(productDescription);
+
+        //If a file has been uploaded delete the old image
+        if (productImage.getOriginalFilename() != "") {
+            deleteImage(product.getProductImage());
+            saveImageToFolder(productImage);
+
+            //Set existing products new image
+            product.setProductImage(productImage.getOriginalFilename());
+        } else {
+            System.out.println("No File Available");
+        }
+
+        productService.updateProduct(product);
+        return "redirect:/products";
+    }
+
+
+
+
+
 
     //Saves Image To Folder "./bambi-photos/"
     private void saveImageToFolder(MultipartFile image) throws IOException {
@@ -88,6 +126,14 @@ public class ProductController {
             Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             throw new IOException("Could not save uploaded file " + filename);
+        }
+    }
+
+    private void deleteImage(String filename) {
+        File image = new File("./bambi-photos/" + filename);
+
+        if(image.exists()) {
+            image.delete();
         }
     }
 }
