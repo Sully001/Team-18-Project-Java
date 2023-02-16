@@ -1,4 +1,4 @@
-package com.example.bambi.service.implementation;
+package com.example.bambi.service.impl;
 
 import com.example.bambi.entity.Product;
 import com.example.bambi.repository.ProductRepository;
@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ProductServiceImplementation implements ProductService {
+public class ProductServiceImpl implements ProductService {
 
     private ProductRepository productRepository;
 
-    public ProductServiceImplementation(ProductRepository productRepository) {
+    public ProductServiceImpl(ProductRepository productRepository) {
         super();
         this.productRepository = productRepository;
     }
