@@ -104,9 +104,13 @@ public class ProductController {
         return "redirect:/products";
     }
 
-
-
-
+    @GetMapping("/product/delete/{id}")
+    public String deleteProduct(@PathVariable Long id) {
+        Product product = productService.getProductById(id);
+        deleteImage(product.getProductImage());
+        productService.deleteProductById(id);
+        return "redirect:/products";
+    }
 
 
     //Saves Image To Folder "./bambi-photos/"

@@ -29,7 +29,7 @@
           <th>Product Category</th>
           <th>Product Description</th>
           <th>Product Image</th>
-          <th></th>
+          <th>Actions</th>
         </tr>
       </thead>
 
@@ -45,10 +45,10 @@
           <a th:href="@{/product/edit/{id}(id=${product.id})}" class="btn btn-primary">
             Update
           </a>
+          <a th:href="@{/product/delete/{id}(id=${product.id})}" class="btn btn-danger">
+            Delete
+          </a>
         </td>
-<!--        <td th:href="@{/product/{id}(id=${product.id})}" class="btn btn-primary">-->
-<!--          Delete-->
-<!--        </td>-->
       </tr>
       </tbody>
     </table>
