@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class ProductServiceImpl implements ProductService {
-
     private ProductRepository productRepository;
 
     public ProductServiceImpl(ProductRepository productRepository) {
@@ -41,4 +40,5 @@ public class ProductServiceImpl implements ProductService {
     public void deleteProductById(Long id) {
         productRepository.deleteById(id);
     }
-}
+
+    }
