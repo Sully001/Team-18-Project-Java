@@ -2,6 +2,7 @@ package com.example.bambi.controller;
 
 import com.example.bambi.entity.Product;
 import com.example.bambi.service.ProductService;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -14,22 +15,25 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.List;
 
 
 @Controller
 public class ProductController {
 
-    private ProductService productService;
+    private final ProductService productService;
 
     public ProductController(ProductService productService) {
         super();
         this.productService = productService;
     }
 
-    //GET request to get a list of all the product currently in the database
+    //GET request if no search all listed products shown, if search then only matched products shown
     @GetMapping("/products")
-    public String listAllProducts(Model model) {
-        model.addAttribute("products", productService.getAllProducts());
+    public String listAllProducts(Model model, @Param("keyword") String keyword) {
+        List<Product> products = productService.getAllProducts(keyword);
+        model.addAttribute("products", products);
+        model.addAttribute("keyword", keyword);
         return "products";
     }
 

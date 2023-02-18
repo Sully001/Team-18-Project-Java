@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b193c41b-1370-4dc8-932e-ba0fb505c2c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bambi-photos/download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b193c41b-1370-4dc8-932e-ba0fb505c2c1" name="Changes" comment="working search bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -110,14 +111,45 @@
       <workItem from="1676546913992" duration="15884000" />
       <workItem from="1676571091738" duration="2307000" />
       <workItem from="1676635513511" duration="5906000" />
-      <workItem from="1676645773604" duration="1014000" />
+      <workItem from="1676645773604" duration="1998000" />
+      <workItem from="1676659383191" duration="3668000" />
+      <workItem from="1676713958287" duration="458000" />
     </task>
+    <task id="LOCAL-00001" summary="ignore this commit should not affect code">
+      <created>1676647134918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676647134918</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working search bar">
+      <created>1676662441242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676662441242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ignore this commit should not affect code" />
+    <MESSAGE value="working search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="working search bar" />
   </component>
 </project>
