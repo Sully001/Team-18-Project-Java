@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class ProductServiceImpl implements ProductService {
-
     private ProductRepository productRepository;
 
     public ProductServiceImpl(ProductRepository productRepository) {
@@ -18,8 +17,11 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> getAllProducts() {
-        return productRepository.findAll();
+    public List<Product> getAllProducts(String keyword) {
+        if(keyword != null){
+            return productRepository.search(keyword);
+        }
+            return productRepository.findAll();
     }
 
     @Override
@@ -41,4 +43,5 @@ public class ProductServiceImpl implements ProductService {
     public void deleteProductById(Long id) {
         productRepository.deleteById(id);
     }
-}
+
+    }

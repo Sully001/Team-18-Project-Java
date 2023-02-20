@@ -4,46 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b193c41b-1370-4dc8-932e-ba0fb505c2c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bambi-photos/AlexChelseaBoots.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/Astrilarge100KneeHighBoot.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/BoneRunners.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/CloudbustThunderDegradeTrainers.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/DowntownTriangleLogoTrainers.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/ElkenChelseaBoots.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/FlyBlackSneakers.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/Mina95Boots.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/MocassiniLoafers.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/MonolithBoots.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/OpyumAnkleBooties.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/PennyLoafers.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/RockstudUntitledTrainers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/RoseHeelBoots.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/SliminiBotta85Boots.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/SpeedGraffitiSneakers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/SpikeHighTops.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/TireAnkleChelseaBoot.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/TripleSClearTrainers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/TripleSSoleTrainers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/TwLoafers.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/VelvetLogoLoafers.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/VintageCheckChelseaBoots.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bambi-photos/WilliamVelvetLoafers.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="81b47128-0a1e-4272-b654-1f7c5989cce4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bambi-photos/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="HTML File" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,76 +26,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2LnAUFYWeUK78dlEE7VJopMGVCy" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2M1E6XaKnFOvQTXvnNHvJSrxEi8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sulim/IdeaProjects/student-management-system&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;12f85fdf12a50de1f8f209c9080ea937&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "12f85fdf12a50de1f8f209c9080ea937",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="BambiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="bambi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bambi.BambiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b193c41b-1370-4dc8-932e-ba0fb505c2c1" name="Changes" comment="" />
-      <created>1676496486341</created>
+      <changelist id="81b47128-0a1e-4272-b654-1f7c5989cce4" name="Changes" comment="" />
+      <created>1676926517213</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676496486341</updated>
-      <workItem from="1676496487473" duration="9703000" />
-      <workItem from="1676513938145" duration="527000" />
-      <workItem from="1676546913992" duration="15884000" />
-      <workItem from="1676571091738" duration="2377000" />
-      <workItem from="1676643043207" duration="1645000" />
-      <workItem from="1676722994408" duration="794000" />
-      <workItem from="1676901437851" duration="86000" />
-      <workItem from="1676901565561" duration="168000" />
-      <workItem from="1676901864960" duration="587000" />
-      <workItem from="1676916775160" duration="1841000" />
+      <updated>1676926517213</updated>
+      <workItem from="1676926518720" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
