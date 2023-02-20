@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b193c41b-1370-4dc8-932e-ba0fb505c2c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bambi-photos/AlexChelseaBoots.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/Astrilarge100KneeHighBoot.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/BoneRunners.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/CloudbustThunderDegradeTrainers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/DowntownTriangleLogoTrainers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/ElkenChelseaBoots.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/FlyBlackSneakers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/Mina95Boots.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/MocassiniLoafers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/MonolithBoots.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/OpyumAnkleBooties.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/PennyLoafers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/RockstudUntitledTrainers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/RoseHeelBoots.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/SliminiBotta85Boots.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/SpeedGraffitiSneakers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/SpikeHighTops.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/TireAnkleChelseaBoot.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/TripleSClearTrainers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/TripleSSoleTrainers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/TwLoafers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/VelvetLogoLoafers.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/VintageCheckChelseaBoots.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi-photos/WilliamVelvetLoafers.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/java/com/example/bambi/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/add_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/edit_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +107,13 @@
       <workItem from="1676496487473" duration="9703000" />
       <workItem from="1676513938145" duration="527000" />
       <workItem from="1676546913992" duration="15884000" />
-      <workItem from="1676571091738" duration="2307000" />
+      <workItem from="1676571091738" duration="2377000" />
+      <workItem from="1676643043207" duration="1645000" />
+      <workItem from="1676722994408" duration="794000" />
+      <workItem from="1676901437851" duration="86000" />
+      <workItem from="1676901565561" duration="168000" />
+      <workItem from="1676901864960" duration="587000" />
+      <workItem from="1676916775160" duration="1841000" />
     </task>
     <servers />
   </component>
