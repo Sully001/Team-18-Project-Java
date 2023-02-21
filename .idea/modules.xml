@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Team-18-Project-Java.iml" filepath="$PROJECT_DIR$/.idea/Team-18-Project-Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bambi/bambi.iml" filepath="$PROJECT_DIR$/bambi/bambi.iml" />
-    </modules>
-  </component>
-</project>
