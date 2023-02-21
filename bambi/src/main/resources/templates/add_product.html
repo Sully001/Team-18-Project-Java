@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventory Management System</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+        <h1 class="text-center">Add New Product</h1>
+        <div class="card-body">
+          <form th:action="@{/products/new}" enctype="multipart/form-data" method="POST">
+
+            <div class="form-group">
+              <label>Product Brand:</label>
+              <input type="text" name="product_brand" placeholder="Enter Brand Name">
+            </div>
+
+            <div class="form-group">
+              <label>Product Name:</label>
+              <input type="text" name="product_name" placeholder="Enter Product Name">
+            </div>
+
+            <div class="form-group">
+              <label>Product Price:</label>
+              <input type="number" name="product_price" placeholder="Enter Product Price">
+            </div>
+
+            <div class="form-group">
+              <label>Product Gender:</label>
+              <select name="product_gender" id="product_gender">
+                <option value="Women">Women</option>
+                <option value="Men">Men</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="product_category">Product Category:</label>
+              <select name="product_category" id="product_category">
+                <option value="Trainers">Trainers</option>
+                <option value="Loafers">Loafers</option>
+                <option value="Boots">Boots</option>
+                <option value="Heels">Heels</option>
+                <option value="Dress Shoes">Dress Shoes</option>
+                <option value="Heeled Sandals">Heeled Sandals</option>
+                <option value="Brogues">Brogues</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Product Description:</label>
+              <textarea id="product_description" name="product_description" rows="4" cols="50"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Product Image:</label>
+              <input type="file" name="product_image" placeholder="Enter Product Image">
+            </div>
+
+            <div class="box-footer">
+              <button type="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
