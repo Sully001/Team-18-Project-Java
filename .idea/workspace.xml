@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79d77cf-24a1-45c8-aa28-e45ec177ed1f" name="Changes" comment="fixing repo">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bambi/bambi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Team-18-Project-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Team-18-Project-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/add_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/edit_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/bambi/src/main/resources/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,17 +41,63 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gib/Downloads/Team-18-Project-Java/bambi/src/main/resources/templates",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bambi/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.bambi.config" />
+      <recent name="com.example.bambi.repository" />
+      <recent name="com.example.bambi.entity" />
+      <recent name="com.example.bambi.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.bambi-0.0.1-SNAPSHOT.jar">
+    <configuration name="BambiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.bambi.BambiApplication" />
+      <module name="Team-18-Project-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bambi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bambi-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/bambi/target/bambi-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.bambi-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="Application.BambiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +108,7 @@
       <updated>1676993882644</updated>
       <workItem from="1676993884016" duration="425000" />
       <workItem from="1676994318393" duration="308000" />
+      <workItem from="1678973026739" duration="12689000" />
     </task>
     <task id="LOCAL-00001" summary="fixing repo">
       <created>1676994490793</created>
